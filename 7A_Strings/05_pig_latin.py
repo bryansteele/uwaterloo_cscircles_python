@@ -1,0 +1,7 @@
+a = input()
+b = list(a)
+b.append(b[0])
+b.append('ay')
+b.remove(b[0])
+c = ''.join(b)
+print(c)
